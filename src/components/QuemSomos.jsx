@@ -1,7 +1,7 @@
 import Section from "./Section";
 import Heading from "./Heading";
 import { catarinaQuemSomos, soraiaQuemSomos } from "../assets";
-import { brainwaveServices, brainwaveServicesIcons } from "../constants";
+import { brainwaveServices, brainwaveServicesIcons, servicesIconsCatarina, servicesIconsSoraia } from "../constants";
 import {
   PhotoChatMessage,
   Gradient,
@@ -30,7 +30,7 @@ const QuemSomos = () => {
                 </p>
 
                 <ul className="flex items-center justify-between">
-                  {brainwaveServicesIcons.map((item, index) => (
+                  {servicesIconsCatarina.map((item, index) => (
                     <li
                       key={index}
                       className={`rounded-2xl flex items-center justify-center ${
@@ -46,7 +46,9 @@ const QuemSomos = () => {
                             : ""
                         }
                       >
-                        <img src={item} width={24} height={24} alt={item} />
+                      <a href={item.link} target="_blank">
+                        <img src={item.icon} width={24} height={24} alt={item.name} />
+                      </a>
                       </div>
                     </li>
                   ))}
@@ -72,7 +74,7 @@ const QuemSomos = () => {
                 <p className="body-2 mb-[2rem] text-n-3">Eu sou a Soraia, Terapeuta Holística desde 2020, quando iniciei a minha jornada de autoconhecimento e expansão de consciência. Actualmente actuo na abertura de Registos Akashicos, Pêndulo Hebreu, Constelações Familiares e Tarot Terapêutico. Tenho como propósito ajudar o ser humano a encontrar o seu caminho de autocura. Vamos a isso?</p>
 
                 <ul className="flex items-center justify-between">
-                  {brainwaveServicesIcons.map((item, index) => (
+                  {servicesIconsSoraia.map((item, index) => (
                     <li
                       key={index}
                       className={`rounded-2xl flex items-center justify-center ${
@@ -88,7 +90,9 @@ const QuemSomos = () => {
                             : ""
                         }
                       >
-                        <img src={item} width={24} height={24} alt={item} />
+                      <a href={item.link} target="_blank">
+                        <img src={item.icon} width={24} height={24} alt={item.name} />
+                      </a>
                       </div>
                     </li>
                   ))}

@@ -133,10 +133,13 @@ const PricingList = () => {
             {/* Submit */}
             <Button className="w-full mb-6 field-btn" type="submit" disabled={loading} >{loading ? 'A enviar...' : 'Enviar'}</Button>
           </form>
-          <div className="flex justify-center mt-10">
-            <button onClick={handleOpenModalPoliticas} className="text-xs font-code font-bold tracking-wider uppercase border-b">Políticas de Privacidade</button>
-            <span className="mx-4">|</span>
-            <button onClick={handleOpenModalTermos} className="text-xs font-code font-bold tracking-wider uppercase border-b">Termos e Condições</button>
+          <div className="text-center mt-10">
+            <div className="block md:inline"><button onClick={handleOpenModalPoliticas} className="text-xs font-code font-bold tracking-wider uppercase border-b">Políticas de Privacidade</button></div>
+            <div className="mx-4 hidden md:inline"><span className="">|</span></div>
+            <div className="block md:inline"><button onClick={handleOpenModalTermos} className="text-xs font-code font-bold tracking-wider uppercase border-b">Termos e Condições</button></div>
+            
+            
+            
           </div>
           <ModalPoliticas
             isOpen={showModalPoliticas}

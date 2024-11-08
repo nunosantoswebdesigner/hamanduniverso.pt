@@ -9,7 +9,7 @@ const SobreNos = () => {
       <div className="container lg:flex">
         <div className="max-w-[25rem]">
           <h2 className="h2 mb-4 md:mb-8">Sobre Nós</h2>
-          <p className="body-2 mt-3 text-n-4 mb-5">{collabText}</p>
+          <p className="body-2 mt-3 text-n-4 mb-20 lg:mb-5">{collabText}</p>
         </div>
 
         <div className="lg:ml-auto xl:w-[38rem] mt-4">

@@ -49,7 +49,7 @@ const Servicos = () => (
                     </div>
                   </div>
 
-                  <div className="mb-10 -my-10 -mx-15">
+                  <div className="mb-10 lg:-my-10 -mx-15">
                     <img
                       className="w-full"
                       src={item.imageUrl}

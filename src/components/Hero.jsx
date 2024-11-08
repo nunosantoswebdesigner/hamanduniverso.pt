@@ -9,6 +9,7 @@ import CompanyLogos from "./CompanyLogos";
 
 const Hero = () => {
   const parallaxRef = useRef(null);
+ 
 
   return (
     <Section

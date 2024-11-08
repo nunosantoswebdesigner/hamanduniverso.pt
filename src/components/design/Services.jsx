@@ -1,4 +1,4 @@
-import { brainwaveWhiteSymbol, gradient, play } from "../../assets";
+import { brainwaveWhiteSymbol, gradient, play, Icon4, Icon5 } from "../../assets";
 import ChatBubbleWing from "../../assets/svg/ChatBubbleWing";
 
 export const Gradient = () => {
@@ -30,7 +30,7 @@ export const VideoChatMessage = () => {
       Vamos Falar!
       <div className="absolute left-5 -bottom-[1.125rem] flex items-center justify-center w-[2.25rem] h-[2.25rem] bg-color-1 rounded-[0.75rem]">
         <img
-          src={brainwaveWhiteSymbol}
+          src={Icon5}
           width={26}
           height={26}
           alt="Brainwave"
