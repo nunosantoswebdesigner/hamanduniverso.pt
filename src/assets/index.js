@@ -29,6 +29,8 @@ import cliente3 from "./clientes/cliente-3.png";
 import cliente4 from "./clientes/cliente-4.png";
 import cliente5 from "./clientes/cliente-5.png";
 import cliente6 from "./clientes/cliente-6.png";
+import star from "./clientes/star.svg";
+import clienteCard from "./clientes/clienteCard.svg";
 
 // Socials
 import discordBlack from "./socials/discord.svg";
@@ -67,6 +69,7 @@ import background from "./background.jpg";
 
 import curve from "./hero/curve.png";
 import robot from "./hero/robot.jpg";
+
 
 
 import curve1 from "./collaboration/curve-1.svg";
@@ -198,6 +201,8 @@ export {
   benefitIcon3,
   benefitIcon4,
   benefitImage2,
+  clienteCard,
+  star,
   Icon1,
   Icon2,
   Icon4,
