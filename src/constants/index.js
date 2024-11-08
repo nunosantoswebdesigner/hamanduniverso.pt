@@ -172,11 +172,69 @@ export const brainwaveServicesIcons = [
 ];
 
 export const servicesIconsCatarina = [
-  facebook,
-  instagram,
-  disc02,
-  chromecast,
-  sliders04,
+  {
+    id: "0",
+    link: "https://www.facebook.com/catanouk66",
+    name: "facebook",
+    icon: facebook,
+  },
+  {
+    id: "1",
+    link: "https://www.instagram.com/hamanduniverso_catanouk66/",
+    name: "instagram",
+    icon: instagram,
+  },
+  {
+    id: "2",
+    link: "tel:+351915825671",
+    name: "phone",
+    icon: disc02,
+  },
+  {
+    id: "3",
+    link: "https://wa.me/+351915825671",
+    name: "whatsapp",
+    icon: chromecast,
+  },
+  {
+    id: "4",
+    link: "mailto:catarina@hamanduniverso.pt",
+    name: "email",
+    icon: sliders04,
+  }
+];
+
+export const servicesIconsSoraia = [
+  {
+    id: "0",
+    link: "https://www.facebook.com/alexa.pereira.5667/",
+    name: "facebook",
+    icon: facebook,
+  },
+  {
+    id: "1",
+    link: "https://www.instagram.com/soraialexa.pereira/",
+    name: "instagram",
+    icon: instagram,
+  },
+  {
+    id: "2",
+    link: "tel:+34644661591",
+    name: "phone",
+    icon: disc02,
+  },
+  {
+    id: "3",
+    link: "https://wa.me/+34644661591",
+    name: "whatsapp",
+    icon: chromecast,
+  },
+  {
+    id: "4",
+    link: "mailto:soraia@hamanduniverso.pt",
+    name: "email",
+    icon: sliders04,
+  }
 ];
 
 
