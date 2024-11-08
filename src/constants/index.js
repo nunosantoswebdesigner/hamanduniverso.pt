@@ -1,5 +1,5 @@
 // Imagens
-import { cliente1, cliente2, cliente3, cliente4, cliente5, cliente6, logoSmall, chromecast, disc02, discord, discordBlack, facebook, figma, file02, framer, homeSmile, instagram, notification2, notification3, notification4, notion, photoshop, plusSquare, protopie, raindrop, recording01, recording03, roadmap1, roadmap2, roadmap3, roadmap4, serviceOne, serviceTwo, serviceThree, serviceFour, searchMd, slack, sliders04, telegram, twitter, tiktok, yourlogo, Icon1, Icon2, Icon3, Icon4, Icon5, Icon6, Icon7, Icon8 } from "../assets";
+import { cliente1, cliente2, cliente3, cliente4, cliente5, cliente6, logoSmall, chromecast, disc02, discord, discordBlack, facebook, figma, file02, framer, homeSmile, instagram, notification2, notification3, notification4, notion, photoshop, plusSquare, protopie, raindrop, recording01, recording03, roadmap1, roadmap2, roadmap3, roadmap4, serviceOne, serviceTwo, serviceThree, serviceFour, searchMd, slack, sliders04, telegram, twitter, tiktok, yourlogo, clienteCard, Icon1, Icon2, Icon3, Icon4, Icon5, Icon6, Icon7, Icon8 } from "../assets";
 
 // Menu
 export const navigation = [ { id: "0", title: "Serviços", url: "#servicos", }, { id: "1", title: "Sobre nós", url: "#sobrenos", }, { id: "2", title: "Testemunhos", url: "#testemunhos", }, { id: "3", title: "Contactos", url: "#contactos", }
@@ -42,53 +42,10 @@ export const roadmap = [
   },
 ];
 
-export const clientReviews = [
-  {
-    id: 1,
-    name: 'Emily Johnson',
-    position: 'Marketing Director at GreenLeaf',
-    backgroundImage:'./src/assets/notification/catarina-small.png',
-    img: cliente1,
-    review:'Working with Nuno was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.',
-  },
-  {
-    id: 2,
-    name: 'Mark Rogers',
-    position: 'Founder of TechGear Shop',
-    backgroundImage: './src/assets/notification/catarina-small.png',
-    img: cliente2,
-    review:
-      'Nuno’s expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He’s a true professional! Fantastic work.',
-  },
-  {
-    id: 3,
-    name: 'John Dohsas',
-    position: 'Project Manager at UrbanTech ',
-    backgroundImage: './src/assets/notification/catarina-small.png',
-    img: cliente3,
-    review:
-      'I can’t say enough good things about Nuno. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.',
-  },
-  {
-    id: 4,
-    name: 'Ether Smith',
-    position: 'CEO of BrightStar Enterprises',
-    backgroundImage: './src/assets/notification/catarina-small.png',
-    img: cliente4,
-    review:
-      'Nuno was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend backend dev are top-notch.',
-  },
-];
-
-//Ana Soares- Muito grata pelo tratamento, pois segui sempre apoiada, e venci os meus ataques de pânico. Desbloqueie emoções e lembranças que nem sabia que existiam mais... E o melhor de tudo, o aprendizado que pratico e me acompanha no dia a dia.
-//Anzhelika Ishkova- Desde a harmonização às técnicas d metodologia... É toda uma descoberta de autoconhecimento e expansão. Só posso certamente recomendar… o reencontro comigo mesma!
-//Wander Pardini- Iniciei o tratamento humano terapêutico com a Catarina, reticente, pois era muito cético, logo na 1@ sessão despertou me uma curiosidade de saber o que mais iria me abrir a mente. Então entendi o sentido de querer estar iluminado.
-//António Graça- Fiz os registos Akashicos com a Soraia, muito na curiosidade… e a curiosidade levou-me a muitas informações e entendimentos verdadeiramente surpreendentes. Foi um virar de chave para a vida! Ainda bem que sou curioso!
-
 export const benefits = [
   {
     id: "0",
-    backgroundUrl: "./src/assets/benefits/card-1.svg",
+    backgroundUrl: clienteCard,
     imageUrl: logoSmall,
     name: 'Ana Soares',
     position: 'Marketing Director at GreenLeaf',
@@ -98,7 +55,7 @@ export const benefits = [
   },
   {
     id: "1",
-    backgroundUrl: "./src/assets/benefits/card-2.svg",
+    backgroundUrl: clienteCard,
     imageUrl: logoSmall,
     light: true,
     name: 'Anzhelika Ishkova',
@@ -109,7 +66,7 @@ export const benefits = [
   },
   {
     id: "2",
-    backgroundUrl: "./src/assets/benefits/card-3.svg",
+    backgroundUrl: clienteCard,
     imageUrl: logoSmall,
     name: 'Wander Pardini',
     position: 'Marketing Director at GreenLeaf',
@@ -119,7 +76,7 @@ export const benefits = [
   },
   {
     id: "3",
-    backgroundUrl: "./src/assets/benefits/card-4.svg",
+    backgroundUrl: clienteCard,
     imageUrl: logoSmall,
     light: true,
     name: 'António Graça',
@@ -130,7 +87,7 @@ export const benefits = [
   },
   {
     id: "4",
-    backgroundUrl: "./src/assets/benefits/card-5.svg",
+    backgroundUrl: clienteCard,
     imageUrl: logoSmall,
     name: 'Nuno Santos',
     position: 'Marketing Director at GreenLeaf',
@@ -140,7 +97,7 @@ export const benefits = [
   },
   {
     id: "5",
-    backgroundUrl: "./src/assets/benefits/card-6.svg",
+    backgroundUrl: clienteCard,
     imageUrl: logoSmall,
     name: 'Lourenço Caetano',
     position: 'Marketing Director at GreenLeaf',
